@@ -1,4 +1,4 @@
-FROM python:3.8.5-alpine3.12
+FROM python:3.10-alpine3.15
 ARG MAINTAINER
 ARG VCS_URL
 ARG VCS_REF
