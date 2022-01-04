@@ -4,6 +4,8 @@ Docker image to allow java projects that use jacoco to use the new codecoverage 
 
 Forked from https://gitlab.com/haynes/jacoco2cobertura/.
 
+Adapted to build for amd64, arm64 and arm/v7
+
 The image includes 2 scripts.
 * cover2cover.py (forked from https://github.com/rix0rrr/cover2cover ; includes open PRs in that repo)
   * Converts jacoco xml reports to cobertura xml reports
